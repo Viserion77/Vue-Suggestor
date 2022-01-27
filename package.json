@@ -1,0 +1,20 @@
+{
+  "name": "vue-suggestor",
+  "displayName": "Vue Suggestor",
+  "description": "Only to suggest events and props names",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
